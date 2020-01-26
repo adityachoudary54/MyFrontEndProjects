@@ -34,7 +34,7 @@ function show(type, message) {
       msg.innerHTML = "";
     }, 2000);
 }
-if(arr.indexOf("loginAdmin.html")!==-1){
+if(arr.indexOf("index.html")!==-1){
     console.log('Hello'+arr);
     let studLoginList=JSON.parse(localStorage.getItem("studLoginDetails"));
     let submit=document.querySelector('#home button');

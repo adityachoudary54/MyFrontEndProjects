@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/courseReg.css">
+
+    <title>Course Registration</title>
+  </head>
+  <body>
+    <h1>Welcome to Course Registration</h1>
+    <div id="home">
+        <div class="container" id="studDetails">
+            <h2>Course Details</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                        <label for="semester">Semester</label>
+                        <select class="form-control" id="semester">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6" selected>6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                        </select>
+                        <label for="branch">Branch</label>
+                        <select class="form-control" id="branch">
+                          <option value="COE">COE</option>
+                          <option value="EE">EE</option>
+                          <option value="ECE">ECE</option>
+                          <option value="ME">ME</option>
+                          <option value="PIE">PIE</option>
+                          <option value="CE">CE</option>
+                          <option value="ENE">ENE</option>
+                          <option value="PCT">PCT</option>
+                          <option value="IT">IT</option>
+                          <option value="BT">BT</option>
+                          <option value="SE">SE</option>
+                          <option value="EEE">EEE</option>
+                          <option value="MAM">MAM</option>
+                          <option value="EP">EP</option>
+                          <option value="MC">MC</option>
+                        </select>
+                  <button type="submit" class="btn btn-primary" >Submit</button>
+                </div>
+              </form>
+            
+        </div>
+        <div class="container" id="subjects">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Course Code</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Theory Marks</th>
+                    <th scope="col">Practical Marks</th>
+                    <th scope="col">Total Credit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/courseReg.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

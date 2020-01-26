@@ -37,6 +37,9 @@ function show(type, message) {
 if(arr.indexOf("index.html")!==-1){
     console.log('Hello'+arr);
     let studLoginList=JSON.parse(localStorage.getItem("studLoginDetails"));
+    if(studLoginList===null){
+        show('danger','Wrong details entered');
+    }
     let submit=document.querySelector('#home button');
     console.log("hello");
     submit.addEventListener('click',function (e) {
@@ -62,7 +65,7 @@ if(arr.indexOf("index.html")!==-1){
             localStorage.setItem("studCourseRegIndex",eleIndex);
             window.open("courseReg.html","_self");
         } else{
-            show('danger','Wrong details entered')
+            show('danger','Wrong details entered');
         }
         e.preventDefault();
     })
